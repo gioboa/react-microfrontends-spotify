@@ -9,23 +9,23 @@
 		"preview": "npm run build && vite preview --port 4173"
 	},
 	"dependencies": {
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
 		"rxjs": "^7.8.0"
 	},
 	"devDependencies": {
-		"@module-federation/vite": "^0.2.6",
-		"@softarc/native-federation": "^1.1.0",
-		"@softarc/native-federation-esbuild": "^1.1.0",
-		"@types/react": "^18.0.26",
+		"@module-federation/vite": "^0.2.8",
+		"@softarc/native-federation-esbuild": "^2.0.2",
+		"@softarc/native-federation": "^2.0.2",
 		"@types/react-dom": "^18.0.10",
+		"@types/react": "^18.0.26",
 		"@vitejs/plugin-react": "^3.0.1",
-		"esbuild": "^0.16.16",
-		"typescript": "^4.9.4",
-		"vite": "^4.0.4",
-		"postcss": "^8.4.21",
-		"postcss-load-config": "^4.0.1",
 		"autoprefixer": "^10.4.14",
-		"tailwindcss": "^3.2.7"
+		"esbuild": "^0.16.16",
+		"postcss-load-config": "^4.0.1",
+		"postcss": "^8.4.21",
+		"react-dom": "^18.2.0",
+		"react": "^18.2.0",
+		"tailwindcss": "^3.2.7",
+		"typescript": "^4.9.4",
+		"vite": "^4.0.4"
 	}
 }
